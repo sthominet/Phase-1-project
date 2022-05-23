@@ -1,0 +1,138 @@
+body {
+    height: 100%;
+    background-image: url(background.jpg);
+    margin:auto;
+    max-width: 800px;
+    align-items: center;
+}
+
+h1 {
+    color: #b1dae7;
+    font-size: 40px;
+    font-family: 'Bungee Shade', cursive;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+select {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    width: 45%;
+    margin: auto;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: hsl(90, 3%, 15%);
+    font-size: 15px;
+    padding: 10px;
+    margin: auto;
+}
+
+img {
+    width:  200px;
+    height: 200px;
+    padding: 20px;
+    float: left;   
+}
+
+ul {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 15px;
+}
+
+#parks-list {
+    background-color: rgb(255, 255, 255);
+    opacity: .8;
+    margin: auto;
+    width: 90%;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+a:link {
+    color: #3d70b2;
+}
+a:visited {
+    color: #5596e6;
+}
+a:hover {
+    color: #41d6c3;
+}
+a:active {
+    color: rgb(87, 129, 236);
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+/* From uiverse.io by @alexmaracinaru */
+.cta {
+    position: relative;
+    margin: auto;
+    padding: 12px 16px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+   }
+   
+   .cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 55px;
+    background: #b1dae7;
+    width: 50px;
+    height: 50px;
+    transition: all 0.3s ease;
+   }
+   
+   .cta span {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #234567;
+   }
+   
+   .cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #234567;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+   }
+   
+   .cta:hover:before {
+    width: 100%;
+    background: #b1dae7;
+   }
+   
+   .cta:hover svg {
+    transform: translateX(0);
+   }
+   
+   .cta:active {
+    transform: scale(0.95);
+   }
